@@ -1,0 +1,612 @@
+[
+ {
+   "FIELD1": 0,
+   "year": 1970,
+   "produced_renewable": 4070021,
+   "total_consumed": 67720114,
+   "gdp": 0,
+   "population": 205052,
+   "energy_price": 1.6,
+   "difference": -63650093
+ },
+ {
+   "FIELD1": 1,
+   "year": 1971,
+   "produced_renewable": 4262212,
+   "total_consumed": 69163993,
+   "gdp": 0,
+   "population": 207661,
+   "energy_price": 1.8,
+   "difference": -64901781
+ },
+ {
+   "FIELD1": 2,
+   "year": 1972,
+   "produced_renewable": 4382009,
+   "total_consumed": 72677208,
+   "gdp": 0,
+   "population": 209896,
+   "energy_price": 1.8,
+   "difference": -68295199
+ },
+ {
+   "FIELD1": 3,
+   "year": 1973,
+   "produced_renewable": 4410938,
+   "total_consumed": 75723857,
+   "gdp": 0,
+   "population": 211909,
+   "energy_price": 2,
+   "difference": -71312919
+ },
+ {
+   "FIELD1": 4,
+   "year": 1974,
+   "produced_renewable": 4741851,
+   "total_consumed": 73914525,
+   "gdp": 0,
+   "population": 213854,
+   "energy_price": 2.9,
+   "difference": -69172674
+ },
+ {
+   "FIELD1": 5,
+   "year": 1975,
+   "produced_renewable": 4687119,
+   "total_consumed": 71953031,
+   "gdp": 0,
+   "population": 215973,
+   "energy_price": 3.3,
+   "difference": -67265912
+ },
+ {
+   "FIELD1": 6,
+   "year": 1976,
+   "produced_renewable": 4727151,
+   "total_consumed": 75966653,
+   "gdp": 0,
+   "population": 218035,
+   "energy_price": 3.6,
+   "difference": -71239502
+ },
+ {
+   "FIELD1": 7,
+   "year": 1977,
+   "produced_renewable": 4208966,
+   "total_consumed": 77946963,
+   "gdp": 0,
+   "population": 220239,
+   "energy_price": 4,
+   "difference": -73737997
+ },
+ {
+   "FIELD1": 8,
+   "year": 1978,
+   "produced_renewable": 5005439,
+   "total_consumed": 79978066,
+   "gdp": 0,
+   "population": 222585,
+   "energy_price": 4.2,
+   "difference": -74972627
+ },
+ {
+   "FIELD1": 9,
+   "year": 1979,
+   "produced_renewable": 5122854,
+   "total_consumed": 80836123,
+   "gdp": 0,
+   "population": 225055,
+   "energy_price": 5.2,
+   "difference": -75713269
+ },
+ {
+   "FIELD1": 10,
+   "year": 1980,
+   "produced_renewable": 5424534,
+   "total_consumed": 78047744,
+   "gdp": 0,
+   "population": 227225,
+   "energy_price": 6.9,
+   "difference": -72623210
+ },
+ {
+   "FIELD1": 11,
+   "year": 1981,
+   "produced_renewable": 5417152,
+   "total_consumed": 76093930,
+   "gdp": 0,
+   "population": 229466,
+   "energy_price": 8,
+   "difference": -70676778
+ },
+ {
+   "FIELD1": 12,
+   "year": 1982,
+   "produced_renewable": 5980929,
+   "total_consumed": 73006442,
+   "gdp": 0,
+   "population": 231664,
+   "energy_price": 8.5,
+   "difference": -67025513
+ },
+ {
+   "FIELD1": 13,
+   "year": 1983,
+   "produced_renewable": 6495613,
+   "total_consumed": 72879382,
+   "gdp": 0,
+   "population": 233792,
+   "energy_price": 8.4,
+   "difference": -66383769
+ },
+ {
+   "FIELD1": 14,
+   "year": 1984,
+   "produced_renewable": 6438346,
+   "total_consumed": 76510942,
+   "gdp": 0,
+   "population": 235825,
+   "energy_price": 8.3,
+   "difference": -70072596
+ },
+ {
+   "FIELD1": 15,
+   "year": 1985,
+   "produced_renewable": 6084016,
+   "total_consumed": 76406632,
+   "gdp": 0,
+   "population": 237924,
+   "energy_price": 8.4,
+   "difference": -70322616
+ },
+ {
+   "FIELD1": 16,
+   "year": 1986,
+   "produced_renewable": 6111140,
+   "total_consumed": 76592009,
+   "gdp": 0,
+   "population": 240133,
+   "energy_price": 7.3,
+   "difference": -70480869
+ },
+ {
+   "FIELD1": 17,
+   "year": 1987,
+   "produced_renewable": 5624499,
+   "total_consumed": 78960216,
+   "gdp": 0,
+   "population": 242289,
+   "energy_price": 7.4,
+   "difference": -73335717
+ },
+ {
+   "FIELD1": 18,
+   "year": 1988,
+   "produced_renewable": 5456756,
+   "total_consumed": 82711222,
+   "gdp": 0,
+   "population": 244499,
+   "energy_price": 7.3,
+   "difference": -77254466
+ },
+ {
+   "FIELD1": 19,
+   "year": 1989,
+   "produced_renewable": 6234663,
+   "total_consumed": 84731901,
+   "gdp": 0,
+   "population": 246819,
+   "energy_price": 7.6,
+   "difference": -78497238
+ },
+ {
+   "FIELD1": 20,
+   "year": 1990,
+   "produced_renewable": 6041896,
+   "total_consumed": 84455290,
+   "gdp": 0,
+   "population": 249623,
+   "energy_price": 8.3,
+   "difference": -78413394
+ },
+ {
+   "FIELD1": 21,
+   "year": 1991,
+   "produced_renewable": 6067786,
+   "total_consumed": 84379011,
+   "gdp": 0,
+   "population": 252981,
+   "energy_price": 8.2,
+   "difference": -78311225
+ },
+ {
+   "FIELD1": 22,
+   "year": 1992,
+   "produced_renewable": 5820551,
+   "total_consumed": 85731655,
+   "gdp": 0,
+   "population": 256514,
+   "energy_price": 8.2,
+   "difference": -79911104
+ },
+ {
+   "FIELD1": 23,
+   "year": 1993,
+   "produced_renewable": 6079641,
+   "total_consumed": 87294876,
+   "gdp": 0,
+   "population": 259919,
+   "energy_price": 8.3,
+   "difference": -81215235
+ },
+ {
+   "FIELD1": 24,
+   "year": 1994,
+   "produced_renewable": 5987153,
+   "total_consumed": 89010843,
+   "gdp": 0,
+   "population": 263126,
+   "energy_price": 8.3,
+   "difference": -83023690
+ },
+ {
+   "FIELD1": 25,
+   "year": 1995,
+   "produced_renewable": 6557307,
+   "total_consumed": 90994772,
+   "gdp": 0,
+   "population": 266278,
+   "energy_price": 8.3,
+   "difference": -84437465
+ },
+ {
+   "FIELD1": 26,
+   "year": 1996,
+   "produced_renewable": 7010888,
+   "total_consumed": 94005089,
+   "gdp": 0,
+   "population": 269394,
+   "energy_price": 8.8,
+   "difference": -86994201
+ },
+ {
+   "FIELD1": 27,
+   "year": 1997,
+   "produced_renewable": 7014328,
+   "total_consumed": 94656462,
+   "gdp": 11521900,
+   "population": 272647,
+   "energy_price": 8.8,
+   "difference": -87642134
+ },
+ {
+   "FIELD1": 28,
+   "year": 1998,
+   "produced_renewable": 6492764,
+   "total_consumed": 94933435,
+   "gdp": 12038300,
+   "population": 275854,
+   "energy_price": 8.2,
+   "difference": -88440671
+ },
+ {
+   "FIELD1": 29,
+   "year": 1999,
+   "produced_renewable": 6516554,
+   "total_consumed": 96525795,
+   "gdp": 12610500,
+   "population": 279040,
+   "energy_price": 8.6,
+   "difference": -90009241
+ },
+ {
+   "FIELD1": 30,
+   "year": 2000,
+   "produced_renewable": 6101704,
+   "total_consumed": 98694694,
+   "gdp": 13131000,
+   "population": 282162,
+   "energy_price": 10.3,
+   "difference": -92592990
+ },
+ {
+   "FIELD1": 31,
+   "year": 2001,
+   "produced_renewable": 5165027,
+   "total_consumed": 96037904,
+   "gdp": 13262100,
+   "population": 284969,
+   "energy_price": 10.8,
+   "difference": -90872877
+ },
+ {
+   "FIELD1": 32,
+   "year": 2002,
+   "produced_renewable": 5729545,
+   "total_consumed": 97540330,
+   "gdp": 13493100,
+   "population": 287625,
+   "energy_price": 10.1,
+   "difference": -91810785
+ },
+ {
+   "FIELD1": 33,
+   "year": 2003,
+   "produced_renewable": 5940633,
+   "total_consumed": 97833112,
+   "gdp": 13879100,
+   "population": 290108,
+   "energy_price": 11.4,
+   "difference": -91892479
+ },
+ {
+   "FIELD1": 34,
+   "year": 2004,
+   "produced_renewable": 6059052,
+   "total_consumed": 100010334,
+   "gdp": 14406400,
+   "population": 292805,
+   "energy_price": 12.9,
+   "difference": -93951282
+ },
+ {
+   "FIELD1": 35,
+   "year": 2005,
+   "produced_renewable": 6207525,
+   "total_consumed": 100097668,
+   "gdp": 14912500,
+   "population": 295517,
+   "energy_price": 15.6,
+   "difference": -93890143
+ },
+ {
+   "FIELD1": 36,
+   "year": 2006,
+   "produced_renewable": 6553848,
+   "total_consumed": 99354258,
+   "gdp": 15338300,
+   "population": 298380,
+   "energy_price": 17.4,
+   "difference": -92800410
+ },
+ {
+   "FIELD1": 37,
+   "year": 2007,
+   "produced_renewable": 6447005,
+   "total_consumed": 100870038,
+   "gdp": 15626000,
+   "population": 301231,
+   "energy_price": 18.3,
+   "difference": -94423033
+ },
+ {
+   "FIELD1": 38,
+   "year": 2008,
+   "produced_renewable": 7103829,
+   "total_consumed": 98724712,
+   "gdp": 15604700,
+   "population": 304094,
+   "energy_price": 21.5,
+   "difference": -91620883
+ },
+ {
+   "FIELD1": 39,
+   "year": 2009,
+   "produced_renewable": 7558189,
+   "total_consumed": 93965172,
+   "gdp": 15208800,
+   "population": 306772,
+   "energy_price": 17.3,
+   "difference": -86406983
+ },
+ {
+   "FIELD1": 40,
+   "year": 2010,
+   "produced_renewable": 8269334,
+   "total_consumed": 97515551,
+   "gdp": 15598800,
+   "population": 309326,
+   "energy_price": 18.9,
+   "difference": -89246217
+ },
+ {
+   "FIELD1": 41,
+   "year": 2011,
+   "produced_renewable": 9174397,
+   "total_consumed": 96852601,
+   "gdp": 15840700,
+   "population": 311580,
+   "energy_price": 21.9,
+   "difference": -87678204
+ },
+ {
+   "FIELD1": 42,
+   "year": 2012,
+   "produced_renewable": 8757864,
+   "total_consumed": 94367771,
+   "gdp": 16197000,
+   "population": 313874,
+   "energy_price": 21.8,
+   "difference": -85609907
+ },
+ {
+   "FIELD1": 43,
+   "year": 2013,
+   "produced_renewable": 9242048,
+   "total_consumed": 97099401,
+   "gdp": 16495400,
+   "population": 316058,
+   "energy_price": 21.4,
+   "difference": -87857353
+ },
+ {
+   "FIELD1": 44,
+   "year": 2014,
+   "produced_renewable": 9600941,
+   "total_consumed": 98267257,
+   "gdp": 16899800,
+   "population": 318386,
+   "energy_price": 21.3,
+   "difference": -88666316
+ },
+ {
+   "FIELD1": 45,
+   "year": 2015,
+   "produced_renewable": 9565096,
+   "total_consumed": 97364113,
+   "gdp": 17386700,
+   "population": 320743,
+   "energy_price": 17.3,
+   "difference": -87799017
+ },
+ {
+   "FIELD1": 46,
+   "year": 2016,
+   "produced_renewable": 10225357,
+   "total_consumed": 97230097,
+   "gdp": 17659200,
+   "population": 323071,
+   "energy_price": 15.9,
+   "difference": -87004740
+ },
+ {
+   "FIELD1": 47,
+   "year": 2017,
+   "produced_renewable": 11094237,
+   "total_consumed": 97621515,
+   "gdp": 18050700,
+   "population": 325147,
+   "energy_price": 17.3,
+   "difference": -86527278
+ },
+ {
+   "FIELD1": 48,
+   "year": 2018,
+   "produced_renewable": 8859832,
+   "total_consumed": 103921101.9,
+   "gdp": null,
+   "population": 328838,
+   "energy_price": 19.6,
+   "difference": -95061269.9
+ },
+ {
+   "FIELD1": 49,
+   "year": 2019,
+   "produced_renewable": 8961888.6,
+   "total_consumed": 104623189.3,
+   "gdp": null,
+   "population": 331506.1,
+   "energy_price": 20,
+   "difference": -94957807.8
+ },
+ {
+   "FIELD1": 50,
+   "year": 2020,
+   "produced_renewable": 9063945.1,
+   "total_consumed": 105325276.8,
+   "gdp": null,
+   "population": 334174.2,
+   "energy_price": 20.4,
+   "difference": -96261331.7
+ },
+ {
+   "FIELD1": 51,
+   "year": 2021,
+   "produced_renewable": 9166001.7,
+   "total_consumed": 106027364.2,
+   "gdp": null,
+   "population": 336842.4,
+   "energy_price": 20.8,
+   "difference": -96861362.5
+ },
+ {
+   "FIELD1": 52,
+   "year": 2022,
+   "produced_renewable": 9268058.3,
+   "total_consumed": 106729451.7,
+   "gdp": null,
+   "population": 339510.5,
+   "energy_price": 21.2,
+   "difference": -97461393.4
+ },
+ {
+   "FIELD1": 53,
+   "year": 2023,
+   "produced_renewable": 9370114.9,
+   "total_consumed": 107431539.1,
+   "gdp": null,
+   "population": 342178.6,
+   "energy_price": 21.5,
+   "difference": -98061424.2
+ },
+ {
+   "FIELD1": 54,
+   "year": 2024,
+   "produced_renewable": 9472171.5,
+   "total_consumed": 108133626.6,
+   "gdp": null,
+   "population": 344846.7,
+   "energy_price": 21.9,
+   "difference": -98661455.1
+ },
+ {
+   "FIELD1": 55,
+   "year": 2025,
+   "produced_renewable": 9574228.1,
+   "total_consumed": 108835714,
+   "gdp": null,
+   "population": 347514.9,
+   "energy_price": 22.3,
+   "difference": -99261485.9
+ },
+ {
+   "FIELD1": 56,
+   "year": 2026,
+   "produced_renewable": 9676284.7,
+   "total_consumed": 109537801.5,
+   "gdp": null,
+   "population": 350183,
+   "energy_price": 22.7,
+   "difference": -99861516.8
+ },
+ {
+   "FIELD1": 57,
+   "year": 2027,
+   "produced_renewable": 9778341.3,
+   "total_consumed": 110239888.9,
+   "gdp": null,
+   "population": 352851.1,
+   "energy_price": 23.1,
+   "difference": -100461547.6
+ },
+ {
+   "FIELD1": 58,
+   "year": 2028,
+   "produced_renewable": 9880397.9,
+   "total_consumed": 110941976.4,
+   "gdp": null,
+   "population": 355519.3,
+   "energy_price": 23.4,
+   "difference": -101061578.5
+ },
+ {
+   "FIELD1": 59,
+   "year": 2029,
+   "produced_renewable": 9982454.5,
+   "total_consumed": 111644063.8,
+   "gdp": null,
+   "population": 358187.4,
+   "energy_price": 23.8,
+   "difference": -101661609.3
+ },
+ {
+   "FIELD1": 60,
+   "year": 2030,
+   "produced_renewable": 10084511.1,
+   "total_consumed": 112346151.3,
+   "gdp": null,
+   "population": 360855.5,
+   "energy_price": 24.2,
+   "difference": -102261640.2
+ }
+]

@@ -1,8 +1,10 @@
-// get our url for the data
-var url = "/api/us_energy";
+// // get our url for the data
+// var url = "/api/us_energy";
 
-//  use d3 to get the data
-d3.json(url, function(data){
+// //  use d3 to get the data
+// d3.json(url, function(data){
+
+  d3.json("../static/js/us_combined v2.json").then(function(data){ console.log(data);
 
     // grab values
     var year = data.map(item => item.year)
