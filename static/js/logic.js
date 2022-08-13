@@ -1,36 +1,31 @@
-// // get our url for the data
-// var url = "/api/us_energy";
-
-// //  use d3 to get the data
-// d3.json(url, function(data){
-
-  d3.json("../static/js/us_combined v2.json").then(function(data){ console.log(data);
+//  select the data for producition vs consumption plot
+  d3.json("/api/us_energy").then(function(data){console.log(data);
 
     // grab values
     var year = data.map(item => item.year)
     var renewable_production = data.map(item => item.produced_renewable)
     var total_consumed = data.map(item => item.total_consumed)
 
-// create traces for renewable and total consumption 
-var trace1 ={
+// create objects for renewable and total consumption 
+var object1 ={
     x: year,
     y: renewable_production,
     type: "bar",
     name: "Renewable Production",
-    marker: {color: 'rgb(26, 118, 255)'},
+    marker: {color: 'rgb(0, 153, 0)'},
     
 };
 
-var trace2= {
+var object2= {
     x: year,
     y:  total_consumed,
     type: "bar",
     name: "Total Energy Consumption",
-    marker: {color: 'rgb(55, 83, 109)'},
+    marker: {color: 'rgb(204, 0, 0)'},
 }
 
 // create the data array
-data =  [trace1, trace2]
+data =  [object1, object2]
 
 //  set layout features
 var layout = {
@@ -77,8 +72,8 @@ Plotly.d3.csv("../static/csv/us_combined.csv", function(err, rows){
   }
     //  unpack year annd difference values
     var frames = []
-    var x = unpack(rows, 'Year')
-    var y = unpack(rows, 'Difference')
+    var x = unpack(rows, 'year')
+    var y = unpack(rows, 'difference')
   
     var n = 100;
     for (var i = 0; i < n; i++) {
@@ -86,7 +81,7 @@ Plotly.d3.csv("../static/csv/us_combined.csv", function(err, rows){
       frames[i].data[0].x = x.slice(0, i+1);
       frames[i].data[0].y = y.slice(0, i+1);
     }
-    //  // Render the plot to the div tag with id "plot2"
+    // Render the plot to the div tag with id "plot2"
     Plotly.newPlot('plot2', [{
       x: frames[1].data[0].x,
       y: frames[1].data[0].y,
@@ -154,16 +149,10 @@ Plotly.d3.csv("../static/csv/us_combined.csv", function(err, rows){
     });
   
   })
-
-  // ////////////////////////////////////////
-
-// create plots  for states
+//////////////////////////////////////////
+// create plots for states
 // select the states data
-
-var url_state = "/api/state_energy";
-
-d3.json(url_state, function(data){
-  console.log(data)
+d3.json("../static/js/states_energy.json").then(function(data){console.log(data);
   document.getElementById("selDataset").addEventListener("change", function() {
     var value = this[this.selectedIndex].value;
     getPlot(value, data);
@@ -226,12 +215,11 @@ d3.json(url_state, function(data){
       type: "scatteer",
       name: "Total Consumption",
       mode: 'lines',
-      // name: 'Solid',
       line: {
-      dash: 'solid',
-      width: 8
+        dash: 'solid',
+        width: 8
       },
-      marker: {color: 'orange'}
+      marker: {color: 'red'}
     }
 
     //  set the layout
@@ -273,7 +261,7 @@ d3.json(url_state, function(data){
       width: 6
       },
       marker:{
-        color: "rgb(55, 83, 109)"
+        color: "rgb(255, 128, 0)"
       }
     };
 

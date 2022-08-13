@@ -1,21 +1,6 @@
 from sre_parse import State
 import numpy as np
-
-from flask import Flask, jsonify, render_template
-
-#################################################
-# Database Setup
-#################################################
-# connection_string = "postgres:postgres@localhost:5432/energy_db"
-# engine = create_engine(f'postgresql://{connection_string}')
-
-# # reflect an existing database into a new model
-# Base = automap_base()
-# # reflect the tables
-# Base.prepare(engine, reflect=True)
-
-# # Save reference to the table named "energy" in database
-# energy = Base.classes.energy
+from flask import Flask, jsonify, render_template, url_for
 
 #################################################
 # Flask Setup
@@ -39,6 +24,13 @@ def entire_us():
 @app.route("/states")
 def states():
     return render_template('states.html') 
+
+# @app.route("/api/us_energy")
+# def us_energy():
+#     with open("./static/js/us_combined.json") as file:
+#         data = jason.load(file)
+#         return data
+
 
 # run the app
 if __name__ == '__main__':
