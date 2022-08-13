@@ -1,0 +1,136 @@
+/* Set map, body, and html adjustment */
+#map {
+  position: absolute;
+  border-top: 1px solid #444;
+  top: 75px;
+  right: 0;
+  bottom: 80px;
+  left: 0;
+}
+
+/* legend CSS formating from leaflet */
+.legend {
+  line-height: 18px;
+  color:rgb(63, 62, 62);
+  background-color:white;
+  padding:1px
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+  
+}
+
+/*header for data*/
+h1{
+  color: rgb(81, 175, 160);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+
+h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+}
+
+
+
+.header{
+  text-align: center;
+}
+
+/*body for all*/
+body{
+  background-color: rgba(223, 222, 222, 0.963);
+}
+.col-md-12{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom:40px;
+}
+
+
+/*navbar for all*/
+a.navbar-style{
+  margin-left: 10px;
+  padding: 10px;
+  background-color: rgb(81, 175, 160);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+/*footer*/
+.page-footer{
+  background-color: rgb(74, 74, 74);
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-signature{
+  color:white;
+  border-top: 5px solid rgb(81, 175, 160)
+}
+
+/* image*/
+.img-thumbnail{
+  padding:10px;
+  border: none;
+}
+
+/*font for all text*/
+p{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: large;
+ padding:10px;
+}
+
+/* image border*/
+.pic{
+  border: 3px solid rgb(81, 175, 160);
+}
+/* navbar style padding only*/
+.navbar{
+  padding-top:0px;
+  padding-bottom: 0px;
+  padding-right:40px;
+}
+
+/* navbar background color*/
+.nav-item.dropdown.show {
+  background-color: rgba(221, 221, 221, 0.9);
+}
+/*  dropdown only*/
+.dropdown-menu {
+  margin: 0;
+}
+
+/* content*/
+.content {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+
+/* contennt margin only*/
+.content.bg-white {
+  margin-top: 15px;
+}
+
+/* small screen adjustments*/
+@media(max-width:767px){
+  .navbar.bg-light{
+      background-color: rgb(81, 175, 160)!important;    
+  }
+
+  .navbar-collapse{
+      background-color: #f8f9fa;
+  }
+  .navbar{
+      padding:inherit;
+  }
+}
