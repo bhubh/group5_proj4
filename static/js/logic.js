@@ -1,5 +1,5 @@
 //  select the data for producition vs consumption plot
-  d3.json("/api/us_energy").then(function(data){console.log(data);
+  d3.json("../static/js/us_combined.json").then(function(data){console.log(data);
 
     // grab values
     var year = data.map(item => item.year)
