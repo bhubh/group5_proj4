@@ -1,4 +1,4 @@
-year,production,consumption,population,price,energy_difference
+year,produced_renewable,total_consumed,population,energy_price,difference
 2021,9803617.9,104821125.5,336085.9,20.9,-95017507.7
 2022,9921656.5,105473329.4,338731.2,21.3,-95551672.9
 2023,10039695.1,106125533.3,341376.5,21.6,-96085838.2
