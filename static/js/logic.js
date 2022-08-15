@@ -1,5 +1,5 @@
 //  select the data for producition vs consumption plot
-  d3.json("../static/js/us_combined.json").then(function(data){console.log(data);
+  d3.json("../static/js/full_us_data.json").then(function(data){console.log(data);
 
     // grab values
     var year = data.map(item => item.year)
@@ -65,7 +65,7 @@ Plotly.newPlot("plot1", data, layout, config);
 });
 
 //  select the data for differrence plot
-Plotly.d3.csv("../static/csv/us_combined.csv", function(err, rows){
+Plotly.d3.csv("../static/csv/full_us_data.csv", function(err, rows){
     //  get the rows
     function unpack(rows, key) {
     return rows.map(function(row) { return row[key]; });
@@ -152,7 +152,7 @@ Plotly.d3.csv("../static/csv/us_combined.csv", function(err, rows){
 //////////////////////////////////////////
 // create plots for states
 // select the states data
-d3.json("../static/js/states_energy.json").then(function(data){console.log(data);
+d3.json("../static/js/states_full_data.json").then(function(data){console.log(data);
   document.getElementById("selDataset").addEventListener("change", function() {
     var value = this[this.selectedIndex].value;
     getPlot(value, data);
