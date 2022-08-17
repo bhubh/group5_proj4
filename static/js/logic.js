@@ -6,7 +6,7 @@
     var renewable_production = data.map(item => item.produced_renewable)
     var total_consumed = data.map(item => item.total_consumed)
 
-// create objects for renewable and total consumption 
+// create objects for total renewable and total consumption 
 var object1 ={
     x: year,
     y: renewable_production,
@@ -24,10 +24,10 @@ var object2= {
     marker: {color: 'rgb(204, 0, 0)'},
 }
 
-// create the data array
+// array
 data =  [object1, object2]
 
-//  set layout features
+//  layout features
 var layout = {
     xaxis: {
         title : "Year",
@@ -66,11 +66,9 @@ Plotly.newPlot("plot1", data, layout, config);
 
 //  select the data for differrence plot
 Plotly.d3.csv("../static/csv/full_us_data.csv", function(err, rows){
-    //  get the rows
     function unpack(rows, key) {
     return rows.map(function(row) { return row[key]; });
   }
-    //  unpack year annd difference values
     var frames = []
     var x = unpack(rows, 'year')
     var y = unpack(rows, 'difference')
@@ -179,20 +177,18 @@ d3.json("../static/js/states_full_data.json").then(function(data){console.log(da
               .property("value", state);
           });
   
-  // display default plots
+  // display plots
   getPlot(filtered[0], data);
   getPlot2(filtered[0], data);
 
 // create a function that displays plots by selected states
   function getPlot(value, data){
-    //  assign the variables 
     var year = data.map(item => value === item.state && item.year );
     var renewable = data.map(item => value === item.state && item.produced_renewable);
     var consumed = data.map(item  => value == item.state && item.total_consumed);
 
     console.log(renewable)
   
-    // create the traces
     var s_trace1 = {
       x: year,
       y: renewable,
@@ -222,7 +218,7 @@ d3.json("../static/js/states_full_data.json").then(function(data){console.log(da
       marker: {color: 'red'}
     }
 
-    //  set the layout
+    // layout settings
     var layout  = {
       title: "Renewable Production vs Total Energy Consumption",
       xaxis:{
@@ -236,21 +232,17 @@ d3.json("../static/js/states_full_data.json").then(function(data){console.log(da
     
     };
     
-    //  create the state_data varriable
     state_data = [s_trace1, s_trace2];
     
-    // create the plot
+    // create the plot and give id Plot3
     Plotly.newPlot("plot3",state_data, layout);
   }
-
-  // create the second function that gets the price plot for the states
   function getPlot2(value, data){
     
     var year = data.map(item => value === item.state && item.year );
     var population = data.map(item => value === item.state && item.population);
     var price = data.map(item  => value === item.state && item.energy_price);
 
-    // set the trace variable
     var s_trace4 = {
       x: year,
       y: price,
@@ -265,7 +257,7 @@ d3.json("../static/js/states_full_data.json").then(function(data){console.log(da
       }
     };
 
-    //  set the layout for the plot
+    //  layout settings
     var layout  = {
       title: "Average Price",
       xaxis:{
@@ -278,7 +270,7 @@ d3.json("../static/js/states_full_data.json").then(function(data){console.log(da
     };
     
     state_data = [s_trace4];
-    //  create the plot
+    //  render plot ID and name plot4
     Plotly.newPlot("plot4",state_data, layout);
   };
   
