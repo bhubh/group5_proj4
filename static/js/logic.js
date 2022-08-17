@@ -86,7 +86,7 @@ Plotly.d3.csv("../static/csv/full_us_data.csv", function(err, rows){
       fill: 'tozeroy',
       type: 'scatter',
       mode: 'lines',
-      line: {color: 'green'},
+      line: {color: 'red'},
     }], {
       title: "Difference Between Renewable Production and Total Consumed Energy",
       xaxis: {
