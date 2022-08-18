@@ -29,7 +29,10 @@ The data that represented each state were in their 2 letter abbreviations and wa
 <br>
 
 ## Section II - Why Linear Regression?
-We chose linear regression machine learning as it is less complex compared to other machine learning techniques. Since our dataset is very complex, we thought that multiple linear regression models would be a perfect. Though there is one glaring issue with linear regression which that it can over simplify real world problems from assuming a linear relationship. We did however recognize that our dataset had a very good linear relationship between many variables. Since linear regression is very susceptibile to be overfitting, we wanted to make sure we did not overfit. Another advantage of Linear Regression over a Time Series is that we can use it further into the future and it is just as accurate as a Time Series.
+We chose linear regression machine learning as it is less complex compared to other machine learning techniques such as a time series. A time series is extrapolation meaning that it plays a major role in forecasting the future, estimates a value that isn't within the data set but it does not have the most accurate predictions. Linear regression is interpolation meaning that it would be more likely for the prediction to be correct opposed to a time series.
+<br>
+<br>
+Since our dataset is very complex, we thought that multiple linear regression models would be a perfect. Though there is one glaring issue with linear regression which that it can over simplify real world problems from assuming a linear relationship. We did however recognize that our dataset had a very good linear relationship between many variables. Since linear regression is very susceptibile to be overfitting, we wanted to make sure we did not overfit.
 
 <br>
 
